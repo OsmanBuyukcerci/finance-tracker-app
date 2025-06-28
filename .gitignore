@@ -1,0 +1,9 @@
+# ASP.NET Core build output
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+
+# Frontend
+node_modules/
