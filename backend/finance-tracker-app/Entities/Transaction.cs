@@ -15,7 +15,7 @@ namespace finance_tracker_app.Entities
 
         public DateTime Date { get; set; } = DateTime.UtcNow;
 
-        public ICollection<Attachment> Attachments { get; set; } = new List<Attachment>();
+        public ICollection<TransactionAttachment> Attachments { get; set; } = new List<TransactionAttachment>();
 
         public int CategoryId { get; set; }
 

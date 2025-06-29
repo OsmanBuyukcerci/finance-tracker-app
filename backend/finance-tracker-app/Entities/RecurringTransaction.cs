@@ -19,7 +19,7 @@ namespace finance_tracker_app.Entities
 
         public DateTime EndDate { get; set; }
 
-        public ICollection<Attachment> Attachments { get; set; } = new List<Attachment>();
+        public ICollection<RecurringTransactionAttachment> Attachments { get; set; } = new List<RecurringTransactionAttachment>();
 
         public int CategoryId { get; set; }
 
