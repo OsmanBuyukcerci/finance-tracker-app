@@ -8,6 +8,7 @@
     public enum DeleteStatus
     {
         Success,
-        NotFound
+        NotFound,
+        Unauthorized,
     }
 }
