@@ -10,6 +10,5 @@
         Success,
         AlreadyExists,
         InvalidData,
-        Unauthorized
     }
 }
