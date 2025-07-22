@@ -5,9 +5,9 @@ namespace finance_tracker_app.Interfaces
 {
     public interface ITransactionAttachmentService
     {
-        public Task<List<TransactionAttachmentGetDto>> GetByUserIdAsync(TransactionAttachmentGetByUserIdDto Request);
-        public Task<CreateResponseDto> CreateAsync(TransactionAttachmentCreateDto Request);
-        public Task<UpdateResponseDto> UpdateAsync(TransactionAttachmentUpdateDto Request);
-        public Task<DeleteResponseDto> DeleteAsync(TransactionAttachmentDeleteDto Request);
+        public Task<List<TransactionAttachmentGetDto>> GetByUserIdAsync(TransactionAttachmentGetByUserIdDto request);
+        public Task<CreateResponseDto> CreateAsync(TransactionAttachmentCreateDto request);
+        public Task<UpdateResponseDto> UpdateAsync(TransactionAttachmentUpdateDto request);
+        public Task<DeleteResponseDto> DeleteAsync(TransactionAttachmentDeleteDto request);
     }
 }
