@@ -10,7 +10,6 @@
         Success,
         AlreadyExists,
         InvalidData,
-        Unauthorized,
-        ServerError
+        Unauthorized
     }
 }

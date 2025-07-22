@@ -10,7 +10,6 @@
         Success,
         NotFound,
         InvalidData,
-        Unauthorized,
-        ServerError
+        Unauthorized
     }
 }

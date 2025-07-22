@@ -8,7 +8,6 @@
     public enum DeleteStatus
     {
         Success,
-        NotFound,
-        ServerError
+        NotFound
     }
 }

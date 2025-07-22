@@ -11,7 +11,6 @@
         InvalidOldPassword,
         PasswordTooShort,
         PasswordTooLong,
-        PasswordsDoNotMatch,
-        ServerError
+        PasswordsDoNotMatch
     }
 }
